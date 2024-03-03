@@ -11,5 +11,10 @@ public class TestScript : MonoBehaviour
         {
             Debug.Log("Testing Successful!");
         }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Debug.LogWarning("Deu Certo");
+        }
     }
 }
